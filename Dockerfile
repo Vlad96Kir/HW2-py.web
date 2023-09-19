@@ -15,4 +15,4 @@ RUN pip install -r requirements.txt
 EXPOSE 8000
 
 # Run the application.
-ENTRYPOINT ["python", "__main__.py"]
+ENTRYPOINT ["python", "main.py"]
