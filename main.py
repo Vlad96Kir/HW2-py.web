@@ -2,7 +2,7 @@ from Bot import Bot
 from UserInterface import ConsoleInterface
 
 
-if __name__ == "__main__":
+if __name__ == "main":
     print('Hello. I am your contact-assistant. What should I do with your contacts?')
     bot = Bot()
     interface = ConsoleInterface()
